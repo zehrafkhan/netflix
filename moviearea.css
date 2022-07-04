@@ -20,3 +20,23 @@
   .container .head img {
     width: 13%;
   }
+  .tr{
+    display: flex;
+    overflow-y: hidden;
+  }
+
+  .tr img{
+    margin: 5px;
+  }
+  html{
+    overflow: scroll;
+    overflow-x: hidden;
+  }
+  ::-webkit-scrollbar{
+    width: 0px;
+    background: transparent;
+  }
+  .no{
+    width: "150";
+    height: "100";
+  }
